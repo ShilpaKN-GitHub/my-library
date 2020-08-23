@@ -24,7 +24,7 @@ function draw()
 {
   background(0);
 
-  movingRect.x = World552.mouseX;
+  movingRect.x = World.mouseX;
   movingRect.y = World.mouseY;
 
   bounceOff(movingObject1, movingObject2);
